@@ -1,7 +1,6 @@
 # Reto número tres
-
-#Punto Uno ejecicio rectangulo:
-
+# Punto Uno ejecicio rectangulo:
+```python
 class Punto:
 
   def __init__(self, x, y):
@@ -104,10 +103,10 @@ print("Recuerde un cuadrado debe ser igual en todos sus lados")
 cuadrado = Cuadrado()
 print(f"El área del cuadrado es: {cuadrado.computar_area()} y su perimetro: {cuadrado.computar_perimetro()}")
 print(f"{cuadrado.computar_interferencia()} cuadrado")
-"""
+```
 # Ejercicio linea
 
-"""
+```python
 import math
 
 class Punto:
@@ -157,11 +156,11 @@ print(f"La cordenada del punto final es: {linea.punto_final}")
 print(f"La longitud de la linea es: {linea.computar_longitud()}")
 print(f"La pendiente en grado con respecto a x es: {linea.computar_pendiente()} grados")
 print(f"{linea.corte_x()} y {linea.corte_y()}")
-"""
+```
 
 # Ejercicio linea rectangulo:
 
-"""
+```python
 class Punto:
 
   def __init__(self, x, y):
@@ -296,9 +295,9 @@ cuadrado = Cuadrado()
 print(f"El área del cuadrado es: {cuadrado.computar_area()} y su perimetro: {cuadrado.computar_perimetro()}")
 print(f"El centro del cuadrado es: {cuadrado.centro}")
 print(f"{cuadrado.computar_interferencia()} cuadrado")
-"""
+```
 # Ejecicio restaurante:
-"""
+```python
 class Menu:
 
   def __init__(self, nombre, precio):
